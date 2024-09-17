@@ -1,0 +1,1 @@
+## Tato složka slouží pro mé pokusy s algoritmizací a programováním.
