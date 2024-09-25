@@ -2,58 +2,38 @@
 
 class Program
 {
-    
-
+   
         static void Main()
     {
         
+        Console.Clear();    
+        Console.WriteLine("************************");
+        Console.WriteLine("**** Výpis číselné řady ****");
+        Console.WriteLine("************************");
+        
         // Vstup od uživatele
-        // Console.Write("Zadej první hodnotu: ");
+        // Console.Write("Zadejte první hodnotu: ");
         // int first = int.Parse(Console.ReadLine());
 
-        // Vstup od uživatele s kontrolou na celé číslo (bez metody)
+        Console.Write("\nZadejte první hodnotu: ");
         int first;
-        while (true)
-        {
-            Console.Write("Zadej první hodnotu: ");
-            if (int.TryParse(Console.ReadLine(), out first))
-            {
-                break; // Platné číslo, opustit cyklus
-            }
-            else
-            {
-                Console.WriteLine("Nezadal(a) jsi celé číslo. Zkus to znovu.");
-            }
+        while(!int.TryParse(Console.ReadLine(), out first)) {
+            Console.Write("Zřejmě jste nezadali celočíselnou hodnotu.\nZadejte první hodnotu: ");
         }
-
+        
+        Console.Write("\nZadejte poslední hodnotu: ");
         int last;
-        while (true)
-        {
-            Console.Write("Zadej poslední hodnotu: ");
-            if (int.TryParse(Console.ReadLine(), out last))
-            {
-                break; // Platné číslo, opustit cyklus
-            }
-            else
-            {
-                Console.WriteLine("Nezadal(a) jsi celé číslo. Zkus to znovu.");
-            }
+        while(!int.TryParse(Console.ReadLine(), out last)) {
+            Console.Write("Zřejmě jste nezadali celočíselnou hodnotu.\nZadejte poslední hodnotu: ");
         }
 
+        Console.Write("\nZadejte krok (diferenci): ");
         int step;
-        while (true)
-        {
-            Console.Write("Zadej krok: ");
-            if (int.TryParse(Console.ReadLine(), out step))
-            {
-                break; // Platné číslo, opustit cyklus
-            }
-            else
-            {
-                Console.WriteLine("Nezadal(a) jsi celé číslo. Zkus to znovu.");
-            }
+        while(!int.TryParse(Console.ReadLine(), out step)) {
+            Console.Write("Zřejmě jste nezadali celočíselnou hodnotu.\nZadejte krok (diferenci): ");
         }
-
+        
+        
         // Výpis řady čísel
         int current = first; // Začínáme s první hodnotou
         while (current <= last)
@@ -62,6 +42,8 @@ class Program
             current = current + step; // Ruční přičítání kroku
         }
 
+        
+        Console.WriteLine("Program ukončíte stiskem libovolné klávesy");
         Console.ReadKey();
     }
 }

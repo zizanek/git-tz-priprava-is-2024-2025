@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\aaa\\IS-2024-2025-priprava\\git-tz-priprava-is-2024-2025\\IS-Projekty-skupina-01\\001-prvni-program\\001-prvni-program.csproj": {}
+    "C:\\aaa\\IS-2024\\git-tz-priprava-is-2024-2025\\IS-Projekty-skupina-01\\001-prvni-program\\001-prvni-program.csproj": {}
   },
   "projects": {
-    "C:\\aaa\\IS-2024-2025-priprava\\git-tz-priprava-is-2024-2025\\IS-Projekty-skupina-01\\001-prvni-program\\001-prvni-program.csproj": {
+    "C:\\aaa\\IS-2024\\git-tz-priprava-is-2024-2025\\IS-Projekty-skupina-01\\001-prvni-program\\001-prvni-program.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\aaa\\IS-2024-2025-priprava\\git-tz-priprava-is-2024-2025\\IS-Projekty-skupina-01\\001-prvni-program\\001-prvni-program.csproj",
+        "projectUniqueName": "C:\\aaa\\IS-2024\\git-tz-priprava-is-2024-2025\\IS-Projekty-skupina-01\\001-prvni-program\\001-prvni-program.csproj",
         "projectName": "001-prvni-program",
-        "projectPath": "C:\\aaa\\IS-2024-2025-priprava\\git-tz-priprava-is-2024-2025\\IS-Projekty-skupina-01\\001-prvni-program\\001-prvni-program.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\aaa\\IS-2024-2025-priprava\\git-tz-priprava-is-2024-2025\\IS-Projekty-skupina-01\\001-prvni-program\\obj\\",
+        "projectPath": "C:\\aaa\\IS-2024\\git-tz-priprava-is-2024-2025\\IS-Projekty-skupina-01\\001-prvni-program\\001-prvni-program.csproj",
+        "packagesPath": "C:\\Users\\zizanek\\.nuget\\packages\\",
+        "outputPath": "C:\\aaa\\IS-2024\\git-tz-priprava-is-2024-2025\\IS-Projekty-skupina-01\\001-prvni-program\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\zizanek\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
